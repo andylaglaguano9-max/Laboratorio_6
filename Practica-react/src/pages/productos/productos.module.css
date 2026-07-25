@@ -1,0 +1,119 @@
+.page {
+  min-height: 100vh;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.card {
+  padding: 32px;
+  margin-bottom: 40px;
+  background: rgba(15, 17, 19, 0.95) !important;
+  backdrop-filter: blur(10px);
+  border-radius: 16px !important;
+  border: 1px solid rgba(172, 237, 92, 0.3) !important;
+  overflow: hidden;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.label {
+  color: #aced5c !important;
+  font-weight: bold !important;
+  letter-spacing: 2px !important;
+}
+
+.title {
+  color: #fff !important;
+  font-weight: 800 !important;
+}
+
+.gridTwoColumns {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 600px) {
+  .gridTwoColumns {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.field {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+}
+
+.field label {
+  color: #bbb !important;
+}
+
+.field input, .field textarea {
+  color: #fff !important;
+}
+
+.field div fieldset {
+  border-color: #555 !important;
+}
+
+.field div:hover fieldset {
+  border-color: #aced5c !important;
+}
+
+.field div.Mui-focused fieldset {
+  border-color: #aced5c !important;
+}
+
+.submitButton {
+  margin-top: 16px !important;
+  background-color: #aced5c !important;
+  color: #111 !important;
+  font-weight: bold !important;
+}
+
+.submitButton:hover {
+  background-color: #97d14d !important;
+}
+
+.tableTitle {
+  color: #fff !important;
+  font-weight: 600 !important;
+  margin-bottom: 24px !important;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.tableHeader {
+  background: rgba(172, 237, 92, 0.1);
+}
+
+.tableCellHeader {
+  color: #aced5c !important;
+  font-weight: bold !important;
+}
+
+.tableCell {
+  color: #fff !important;
+}
+
+.tableCellDesc {
+  color: #ccc !important;
+}
+
+.tableCellPrice {
+  color: #fff !important;
+  font-weight: bold !important;
+}
+
+.editButton {
+  margin-right: 8px !important;
+  color: #aced5c !important;
+  border-color: #aced5c !important;
+}
+
+.editButton:hover {
+  background: rgba(172, 237, 92, 0.1) !important;
+}

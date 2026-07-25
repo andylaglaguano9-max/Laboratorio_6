@@ -1,0 +1,9 @@
+export { InicioPage } from './inicio';
+export { NosotrosPage } from './nosotros';
+export { ContactosPage } from './contactos';
+export { TeamsPage } from './Teams';
+export { PersonajePage } from './personajes';
+export { LoginPage } from './login';
+export { RegistroPage } from './registro';
+export { Dashboard } from './dashboard';
+export { ProductosPage } from './productos';

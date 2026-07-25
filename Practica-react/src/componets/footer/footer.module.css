@@ -1,0 +1,18 @@
+.footer {
+    width: 100%;
+    min-height: 60px;
+    background: rgba(16, 124, 16, 0.15);
+    backdrop-filter: blur(10px);
+    border-top: 2px solid #107c10;
+    color: #97ce4c;
+    text-align: center;
+    padding: 18px 20px;
+    margin-top: auto;
+    flex-shrink: 0;
+    box-shadow: 0 -4px 20px rgba(16, 124, 16, 0.4);
+}
+
+.texto {
+    margin: 0;
+    letter-spacing: 1px;
+}

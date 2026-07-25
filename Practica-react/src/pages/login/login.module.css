@@ -1,0 +1,112 @@
+.page {
+  min-height: calc(100vh - 160px);
+  display: flex;
+  align-items: center;
+  padding: 32px 16px;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(151, 206, 76, 0.14), transparent 25%),
+    radial-gradient(circle at 85% 10%, rgba(16, 124, 16, 0.18), transparent 22%);
+}
+
+.container {
+  width: 100%;
+}
+
+.card {
+  padding: 32px;
+  border-radius: 24px !important;
+  border: 1px solid rgba(151, 206, 76, 0.25);
+  background: rgba(31, 40, 51, 0.72) !important;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.45) !important;
+}
+
+.header {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.label {
+  color: #97ce4c !important;
+  letter-spacing: 2px !important;
+}
+
+.title {
+  color: #f2f2f2 !important;
+  font-weight: 700 !important;
+  line-height: 1.1 !important;
+}
+
+.subtitle {
+  color: #a0aab2 !important;
+}
+
+.form {
+  width: 100%;
+}
+
+.field :global(.MuiOutlinedInput-root) {
+  color: #f2f2f2;
+}
+
+.field :global(.MuiOutlinedInput-notchedOutline) {
+  border-color: rgba(151, 206, 76, 0.3) !important;
+}
+
+.field :global(.MuiInputLabel-root) {
+  color: #c5c6c7;
+}
+
+.field :global(.MuiInputLabel-root.Mui-focused) {
+  color: #97ce4c;
+}
+
+.field :global(.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline) {
+  border-color: #97ce4c !important;
+}
+
+.field :global(.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline) {
+  border-color: rgba(197, 240, 107, 0.85) !important;
+}
+
+.checkbox {
+  color: #97ce4c !important;
+}
+
+.checkbox :global(.MuiSvgIcon-root) {
+  color: #97ce4c;
+}
+
+.remember {
+  color: #c5c6c7 !important;
+}
+
+.submitButton {
+  background: #97ce4c !important;
+  color: #0b0c10 !important;
+  font-weight: 700 !important;
+}
+
+.submitButton:hover {
+  background: #b5e35d !important;
+}
+
+.footerText {
+  text-align: center;
+  color: #a0aab2 !important;
+}
+
+.link {
+  color: #97ce4c !important;
+}
+
+@media (max-width: 480px) {
+  .page {
+    padding: 22px 12px;
+  }
+
+  .card {
+    padding: 24px;
+    border-radius: 20px !important;
+  }
+}

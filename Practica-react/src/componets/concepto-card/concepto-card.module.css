@@ -1,0 +1,60 @@
+.conceptoCard {
+  background: rgba(31, 40, 51, 0.6);
+  backdrop-filter: blur(8px);
+  border: 1px solid #1f2833;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.conceptoCard::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: #107C10;
+  box-shadow: 0 0 10px #107C10;
+  transition: background 0.3s;
+}
+
+.conceptoCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(151, 206, 76, 0.2);
+  border-color: rgba(151, 206, 76, 0.4);
+}
+
+.conceptoCard:hover::before {
+  background: #97ce4c;
+  box-shadow: 0 0 15px #97ce4c;
+}
+
+.imagen {
+  width: 100%;
+  height: clamp(160px, 35vw, 200px);
+  object-fit: contain;
+  padding: clamp(16px, 3vw, 25px);
+  border-bottom: 2px solid #107c10;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.contenido {
+  padding: clamp(16px, 3vw, 20px);
+}
+
+.titulo {
+  color: #97ce4c;
+  margin: 0 0 10px 0;
+  font-size: clamp(1.15rem, 3vw, 1.4rem);
+  text-shadow: 0 0 5px rgba(151, 206, 76, 0.4);
+}
+
+.descripcion {
+  color: #a0aab2;
+  margin: 0;
+  font-size: clamp(0.92rem, 2vw, 0.95rem);
+  line-height: 1.5;
+}

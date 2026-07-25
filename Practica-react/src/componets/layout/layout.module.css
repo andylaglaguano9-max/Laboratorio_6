@@ -1,0 +1,16 @@
+.layout {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.main {
+    flex: 1;
+    width: 100%;
+    padding: clamp(20px, 4vw, 36px) 16px;
+    display: block;
+}

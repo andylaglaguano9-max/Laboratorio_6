@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1781487114854" clover="3.2.0">
+  <project timestamp="1781487114855" name="All files">
+    <metrics statements="35" coveredstatements="34" conditionals="16" coveredconditionals="11" methods="15" coveredmethods="15" elements="66" coveredelements="60" complexity="0" loc="35" ncloc="35" packages="7" files="17" classes="17"/>
+    <package name="componets.concepto-card">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="concepto-card.jsx" path="C:\Users\PC-MASTER\6TO SEMESTRE\DESARROLLO WEB\SEGUNDO PARCIAL\Prectica\Practica-react\src\componets\concepto-card\concepto-card.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="concepto-card.module.css" path="C:\Users\PC-MASTER\6TO SEMESTRE\DESARROLLO WEB\SEGUNDO PARCIAL\Prectica\Practica-react\src\componets\concepto-card\concepto-card.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="componets.footer">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="footer.jsx" path="C:\Users\PC-MASTER\6TO SEMESTRE\DESARROLLO WEB\SEGUNDO PARCIAL\Prectica\Practica-react\src\componets\footer\footer.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+      </file>
+      <file name="footer.module.css" path="C:\Users\PC-MASTER\6TO SEMESTRE\DESARROLLO WEB\SEGUNDO PARCIAL\Prectica\Practica-react\src\componets\footer\footer.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="index.jsx" path="C:\Users\PC-MASTER\6TO SEMESTRE\DESARROLLO WEB\SEGUNDO PARCIAL\Prectica\Practica-react\src\componets\footer\index.jsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="componets.header">
+      <metrics statements="7" coveredstatements="7" conditionals="10" coveredconditionals="5" methods="6" coveredmethods="6"/>
+      <file name="header.jsx" path="C:\Users\PC-MASTER\6TO SEMESTRE\DESARROLLO WEB\SEGUNDO PARCIAL\Prectica\Practica-react\src\componets\header\header.jsx">
+        <metrics statements="7" coveredstatements="7" conditionals="10" coveredconditionals="5" methods="6" coveredmethods="6"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="10" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="14" count="8" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="header.module.css" path="C:\Users\PC-MASTER\6TO SEMESTRE\DESARROLLO WEB\SEGUNDO PARCIAL\Prectica\Practica-react\src\componets\header\header.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="index.jsx" path="C:\Users\PC-MASTER\6TO SEMESTRE\DESARROLLO WEB\SEGUNDO PARCIAL\Prectica\Practica-react\src\componets\header\index.jsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="componets.layout">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="layout.jsx" path="C:\Users\PC-MASTER\6TO SEMESTRE\DESARROLLO WEB\SEGUNDO PARCIAL\Prectica\Practica-react\src\componets\layout\layout.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+      <file name="layout.module.css" path="C:\Users\PC-MASTER\6TO SEMESTRE\DESARROLLO WEB\SEGUNDO PARCIAL\Prectica\Practica-react\src\componets\layout\layout.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="componets.materia-item">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="materia-item.jsx" path="C:\Users\PC-MASTER\6TO SEMESTRE\DESARROLLO WEB\SEGUNDO PARCIAL\Prectica\Practica-react\src\componets\materia-item\materia-item.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+      <file name="materia-item.module.css" path="C:\Users\PC-MASTER\6TO SEMESTRE\DESARROLLO WEB\SEGUNDO PARCIAL\Prectica\Practica-react\src\componets\materia-item\materia-item.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="componets.personaje">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.jsx" path="C:\Users\PC-MASTER\6TO SEMESTRE\DESARROLLO WEB\SEGUNDO PARCIAL\Prectica\Practica-react\src\componets\personaje\index.jsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="personaje.jsx" path="C:\Users\PC-MASTER\6TO SEMESTRE\DESARROLLO WEB\SEGUNDO PARCIAL\Prectica\Practica-react\src\componets\personaje\personaje.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+      </file>
+      <file name="personaje.module.css" path="C:\Users\PC-MASTER\6TO SEMESTRE\DESARROLLO WEB\SEGUNDO PARCIAL\Prectica\Practica-react\src\componets\personaje\personaje.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="pages.personajes">
+      <metrics statements="14" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="personaje.jsx" path="C:\Users\PC-MASTER\6TO SEMESTRE\DESARROLLO WEB\SEGUNDO PARCIAL\Prectica\Practica-react\src\pages\personajes\personaje.jsx">
+        <metrics statements="14" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="9" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="10" count="9" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="21" count="5" type="stmt"/>
+        <line num="24" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="31" count="8" type="stmt"/>
+      </file>
+      <file name="personaje.module.css" path="C:\Users\PC-MASTER\6TO SEMESTRE\DESARROLLO WEB\SEGUNDO PARCIAL\Prectica\Practica-react\src\pages\personajes\personaje.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+  </project>
+</coverage>

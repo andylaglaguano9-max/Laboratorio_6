@@ -1,0 +1,35 @@
+.pageCard {
+    width: min(100%, 850px);
+    margin: 0 auto 28px;
+    padding: clamp(20px, 4vw, 32px);
+    border: 1px solid #107c10;
+    border-radius: 12px;
+    background: rgba(31, 40, 51, 0.6);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.pageCard h1 {
+    font-size: clamp(1.8rem, 5vw, 2.8rem);
+    line-height: 1.1;
+}
+
+.pageCard p {
+    font-size: clamp(0.95rem, 2.2vw, 1.05rem);
+}
+
+.pageLabel {
+    display: inline-block;
+    color: #97ce4c;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+    .pageCard {
+        border-radius: 10px;
+    }
+}
