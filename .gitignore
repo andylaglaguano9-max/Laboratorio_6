@@ -1,0 +1,5 @@
+node_modules/ 
+Practica-react/node_modules/ 
+coverage_output.txt 
+test_output.txt 
+*.docx 

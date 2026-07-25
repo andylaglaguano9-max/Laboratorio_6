@@ -1,0 +1,48 @@
+name: CI/CD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar el código fuente
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Instalar dependencias Frontend
+        run: npm install
+        working-directory: ./Practica-react
+
+      - name: Construir Frontend
+        run: npm run build
+        working-directory: ./Practica-react
+
+      - name: Instalar dependencias Backend
+        run: npm install
+
+      - name: Construir imágenes Docker
+        run: |
+          docker build -t frontend-react ./Practica-react
+          docker build -t backend-api .
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: Tag and Push Images
+        run: |
+          docker tag frontend-react ${{ secrets.DOCKER_USERNAME }}/frontend-react:latest
+          docker tag backend-api ${{ secrets.DOCKER_USERNAME }}/backend-api:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/frontend-react:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/backend-api:latest
